@@ -75,3 +75,12 @@ async function initQuiz() {
 
 document.addEventListener('DOMContentLoaded', () => initQuiz());
 
+const numbers1 = ["2","4","6","8","10"];
+const numbersFormat = numbers1.map(element => element / 2);
+console.log(numbersFormat);
+
+const numbers = [1, 30, 19, 29, 10, 13];
+console.log(numbers.every(element => element < 30));
+
+const words = 'Mara are mere!';
+console.log(words.split(''));
